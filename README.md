@@ -81,7 +81,7 @@
             <h1>Privacy Policy</h1>
             <p class="subtitle"><strong>Game:</strong> Void Grid: Unmade<br><strong>Last Updated:</strong> May 2026</p>
             
-            <p>VoidBraeker ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share information when you play Rift Runner: Unmade.</p>
+            <p>VoidBraeker ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share information when you play Void Grid: Unmade.</p>
             
             <h2>1. Information We Collect Automatically</h2>
             <p>When you use the Game, we and our third-party service providers (specifically ironSource/Unity) automatically collect certain information about your device, including:</p>
@@ -102,7 +102,7 @@
             <p>We do not knowingly collect personal data from children under the age of 13 (or 16 in certain jurisdictions). If you identify as a minor via our age-gate, we strictly disable behavioral tracking and transmit a "child-directed" flag to ironSource to ensure compliance.</p>
             
             <h2>4. Data Storage</h2>
-            <p>Rift Runner: Unmade is a "local-first" game. Your gameplay progress is stored locally on your device. We do not maintain user accounts on our servers.</p>
+            <p>Void Grid: Unmade is a "local-first" game. Your gameplay progress is stored locally on your device. We do not maintain user accounts on our servers.</p>
             
             <h2>5. Contact Us</h2>
             <p>For any questions regarding this policy, contact us at: <a href="mailto:Voidbraeker@gmail.com">Voidbraeker@gmail.com</a></p>
@@ -111,7 +111,7 @@
         <!-- TERMS OF SERVICE SECTION -->
         <section id="terms">
             <h1>Terms of Service & EULA</h1>
-            <p class="subtitle"><strong>Game:</strong> Rift Runner: Unmade<br><strong>Last Updated:</strong> May 2026</p>
+            <p class="subtitle"><strong>Game:</strong> Void Grid: Unmade<br><strong>Last Updated:</strong> May 2026</p>
             
             <p>By installing or using Void Grid: Unmade (the "Game"), you agree to these Terms.</p>
             

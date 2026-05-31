@@ -79,7 +79,7 @@
         <!-- PRIVACY POLICY SECTION -->
         <section id="privacy">
             <h1>Privacy Policy</h1>
-            <p class="subtitle"><strong>Game:</strong> Void Grid: Unmade<br><strong>Last Updated:</strong> June 2024</p>
+            <p class="subtitle"><strong>Game:</strong> Void Grid: Unmade<br><strong>Last Updated:</strong> May 2026</p>
             
             <p>VoidBraeker ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share information when you play Rift Runner: Unmade.</p>
             

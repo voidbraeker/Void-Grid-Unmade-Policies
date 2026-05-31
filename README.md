@@ -95,7 +95,7 @@
             <p>We use the ironSource Mobile Ltd. SDK for advertising. ironSource may use the data collected to provide personalized advertisements and analyze ad performance.</p>
             <ul>
                 <li><strong>Privacy Documentation:</strong> You can review ironSource's Privacy Policy here: <a href="https://www.is.com/privacy-policy/" target="_blank" rel="noopener">https://www.is.com/privacy-policy/</a></li>
-                <li><strong>Opt-Out:</strong> You can opt-out of interest-based advertising through your Android device settings (Settings &gt; Google &gt; Ads &gt; Opt out of Ads Personalization).</li>
+                <li><strong>Opt-Out:</strong> You can opt-out of interest-based advertising through your Android device settings (typically under Settings &gt; Privacy &gt; Ads or Settings &gt; Google &gt; Ads). </li>
             </ul>
             
             <h2>3. Children's Privacy (COPPA/GDPR)</h2>

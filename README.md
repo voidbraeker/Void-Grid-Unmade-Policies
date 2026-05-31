@@ -111,7 +111,7 @@
         <!-- TERMS OF SERVICE SECTION -->
         <section id="terms">
             <h1>Terms of Service & EULA</h1>
-            <p class="subtitle"><strong>Game:</strong> Rift Runner: Unmade<br><strong>Last Updated:</strong> June 2024</p>
+            <p class="subtitle"><strong>Game:</strong> Rift Runner: Unmade<br><strong>Last Updated:</strong> May 2026</p>
             
             <p>By installing or using Void Grid: Unmade (the "Game"), you agree to these Terms.</p>
             

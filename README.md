@@ -1,104 +1,111 @@
-<title>Legal Policies - Void Grid: Unmade</title> 
-<style> 
-:root { 
-    --primary: #2563eb; 
-    --text: #1f2937; 
-    --text-light: #4b5563; 
-    --bg: #f9fafb; 
-    --card: #ffffff; 
-    --border: #e5e7eb; 
-} 
-* { 
-    box-sizing: border-box; 
-    margin: 0; 
-    padding: 0; 
-} 
-body { 
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
-    line-height: 1.7; 
-    color: var(--text); 
-    background-color: var(--bg); 
-    padding: 0 20px; 
-} 
-nav { 
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    background: var(--card); 
-    border-bottom: 1px solid var(--border); 
-    display: flex; 
-    justify-content: center; 
-    gap: 20px; 
-    padding: 15px; 
-    z-index: 100; 
-} 
-nav a { 
-    text-decoration: none; 
-    color: var(--text-light); 
-    font-weight: 600; 
-    padding: 6px 12px; 
-    border-radius: 6px; 
-    transition: all 0.2s; 
-} 
-nav a:hover { 
-    color: var(--primary); 
-    background: #eff6ff; 
-} 
-.container { 
-    max-width: 800px; 
-    margin: 100px auto 600px auto; /* Deep bottom margin for comfortable scrolling */ 
-} 
-section { 
-    background: var(--card); 
-    padding: 40px; 
-    border-radius: 12px; 
-    border: 1px solid var(--border); 
-    margin-bottom: 40px; 
-    scroll-margin-top: 80px; /* Prevents nav bar from covering headings when jumping links */ 
-} 
-h1 { 
-    font-size: 2rem; 
-    margin-bottom: 10px; 
-    color: #111827; 
-} 
-h2 { 
-    font-size: 1.4rem; 
-    margin-top: 30px; 
-    margin-bottom: 15px; 
-    color: #111827; 
-    border-bottom: 1px solid var(--border); 
-    padding-bottom: 5px; 
-} 
-p { 
-    margin-bottom: 15px; 
-    color: var(--text-light); 
-} 
-.subtitle { 
-    font-style: italic; 
-    margin-bottom: 30px; 
-} 
-ul { 
-    margin-bottom: 20px; 
-    padding-left: 20px; 
-    color: var(--text-light); 
-} 
-li { 
-    margin-bottom: 8px; 
-} 
-a { 
-    color: var(--primary); 
-    text-decoration: underline; 
-} 
-a:hover { 
-    color: #1d4ed8; 
-} 
-hr { 
-    border: 0; 
-    border-top: 1px dashed var(--border); 
-    margin: 40px 0; 
-} 
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Policies - Void Grid: Unmade</title> 
+    <style> 
+        :root { 
+            --primary: #2563eb; 
+            --text: #1f2937; 
+            --text-light: #4b5563; 
+            --bg: #f9fafb; 
+            --card: #ffffff; 
+            --border: #e5e7eb; 
+        } 
+        * { 
+            box-sizing: border-box; 
+            margin: 0; 
+            padding: 0; 
+        } 
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.7; 
+            color: var(--text); 
+            background-color: var(--bg); 
+            padding: 0 20px; 
+        } 
+        nav { 
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            right: 0; 
+            background: var(--card); 
+            border-bottom: 1px solid var(--border); 
+            display: flex; 
+            justify-content: center; 
+            gap: 20px; 
+            padding: 15px; 
+            z-index: 100; 
+        } 
+        nav a { 
+            text-decoration: none; 
+            color: var(--text-light); 
+            font-weight: 600; 
+            padding: 6px 12px; 
+            border-radius: 6px; 
+            transition: all 0.2s; 
+        } 
+        nav a:hover { 
+            color: var(--primary); 
+            background: #eff6ff; 
+        } 
+        .container { 
+            max-width: 800px; 
+            margin: 100px auto 150px auto; /* Optimized bottom margin for mobile and webview layouts */ 
+        } 
+        section { 
+            background: var(--card); 
+            padding: 40px; 
+            border-radius: 12px; 
+            border: 1px solid var(--border); 
+            margin-bottom: 40px; 
+            scroll-margin-top: 80px; /* Prevents fixed nav bar from obscuring anchors */ 
+        } 
+        h1 { 
+            font-size: 2rem; 
+            margin-bottom: 10px; 
+            color: #111827; 
+        } 
+        h2 { 
+            font-size: 1.4rem; 
+            margin-top: 30px; 
+            margin-bottom: 15px; 
+            color: #111827; 
+            border-bottom: 1px solid var(--border); 
+            padding-bottom: 5px; 
+        } 
+        p { 
+            margin-bottom: 15px; 
+            color: var(--text-light); 
+        } 
+        .subtitle { 
+            font-style: italic; 
+            margin-bottom: 30px; 
+        } 
+        ul { 
+            margin-bottom: 20px; 
+            padding-left: 20px; 
+            color: var(--text-light); 
+        } 
+        li { 
+            margin-bottom: 8px; 
+        } 
+        a { 
+            color: var(--primary); 
+            text-decoration: underline; 
+        } 
+        a:hover { 
+            color: #1d4ed8; 
+        } 
+        hr { 
+            border: 0; 
+            border-top: 1px dashed var(--border); 
+            margin: 40px 0; 
+        } 
+    </style>
+</head>
+<body>
 
 <nav>
     <a href="#privacy">Privacy Policy</a>
@@ -112,7 +119,7 @@ hr {
         <h1>Privacy Policy</h1>
         <p class="subtitle"><strong>Game:</strong> Void Grid: Unmade<br><strong>Last Updated:</strong> June 2026</p>
         
-        <p>VoidBraeker ("we," "us," or "our") provides <strong>Void Grid: Unmade</strong> (the "Game"). This Privacy Policy explains how we collect, use, and disclose information when you access our Game via the Google Play Store.</p>
+        <p>VoidBraeker ("we," "us," or "our") provides <strong>Void Grid: Unmade</strong> (the "Game"). This Privacy Policy explains how we collect, use, and disclose information when you access our Game via the Google Play Store. For the purposes of global data protection laws (including GDPR and UK GDPR), VoidBraeker acts as the Data Controller for processing your information.</p>
         
         <h2>1. Information We Collect</h2>
         
@@ -123,45 +130,46 @@ hr {
         <p>If you sign in using <strong>Google Play Game Services (GPGS)</strong>, we may access:</p>
         <ul>
             <li><strong>Google Play Profile Name/ID:</strong> Used to display your <strong>Performance Index (PI)</strong> on the <strong>Sector Index</strong> (Global Leaderboards).</li>
-            <li><strong>Cloud Save Data:</strong> Used to synchronize your progress across multiple devices.</li>
+            <li><strong>Cloud Save Data:</strong> Used to synchronize your progress securely across multiple devices linked to your profile.</li>
         </ul>
         
         <h3>C. Automated Data Collection (Third Parties)</h3>
-        <p>To provide the Game for free and manage performance, we use:</p>
+        <p>To provide the Game for free, manage performance, and securely handle distribution, we use third-party networks whose software development kits (SDKs) collect automated parameters:</p>
         <ul>
-            <li><strong>Google AdMob:</strong> Collects Device IDs, IP addresses, and Advertising IDs (AAID/IDFA) to serve and personalize advertisements.</li>
-            <li><strong>Google Play Billing:</strong> Processes financial data for "Remove Adverts" purchases. VoidBraeker does not see or store your credit card information.</li>
+            <li><strong>Google AdMob & Mediation Partners:</strong> Collects Device IDs, IP addresses, and Advertising IDs (such as AAID) to serve, personalize, and analyze advertisements. Our monetization structure utilizes industry-standard mediation platform systems (such as ironSource / Unity LevelPlay) to securely handle safe ad delivery.</li>
+            <li><strong>Google Play Billing:</strong> Processes financial data for "Remove Ads" purchases. VoidBraeker does not see, access, or store your payment details or credit card information.</li>
         </ul>
         
-        <h2>2. How We Use Your Information</h2>
+        <h2>2. Legal Basis & How We Use Your Information</h2>
+        <p>We process your data under the following legal foundations: <strong>Contractual Necessity</strong> (to deliver cloud sync and purchases) and <strong>Legitimate Interests</strong> (to maintain game health, combat fraud, and serve non-intrusive ads).</p>
         <ul>
-            <li>To manage your <strong>Traveler</strong> profile and progression.</li>
-            <li>To provide the <strong>Offline Protection</strong> feature.</li>
+            <li>To manage your <strong>Traveler</strong> profile and progression metrics.</li>
+            <li>To provide the <strong>Offline Protection</strong> validation features.</li>
             <li>To process rewards like <strong>Void Fragments</strong> and <strong>Tech Scraps</strong>.</li>
-            <li>To maintain the integrity of the <strong>Daily Breach</strong> rankings.</li>
+            <li>To maintain the integrity and fair play of the <strong>Daily Breach</strong> rankings.</li>
         </ul>
 
         <h2>3. Third-Party Advertising Settings & Opt-Out</h2>
-        <p>Google AdMob may use collected data to provide personalized advertisements and analyze ad performance.</p>
+        <p>Google AdMob and related providers use data to provide personalized advertisements and analyze performance.</p>
         <ul>
             <li><strong>Privacy Documentation:</strong> You can review Google's Privacy Policy here: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
-            <li><strong>Opt-Out:</strong> You can opt-out of interest-based advertising through your Android device settings (typically under Settings &gt; Privacy &gt; Ads or Settings &gt; Google &gt; Ads).</li>
+            <li><strong>Opt-Out:</strong> You can completely opt-out of interest-based behavioral advertising through your Android device system settings (typically located under Settings &gt; Privacy &gt; Ads or Settings &gt; Google &gt; Ads).</li>
         </ul>
 
-        <h2>4. Children's Privacy (COPPA/GDPR)</h2>
-        <p>We do not knowingly collect personal data from children under the age of 13 (or 16 in certain jurisdictions). If a minor is identified via our age-gate, we strictly disable behavioral tracking and transmit a "child-directed" flag to our ad networks to ensure compliance.</p>
+        <h2>4. Your Data Protection Rights (GDPR / UK GDPR)</h2>
+        <p>Depending on your location, you hold comprehensive rights regarding your personal data. You have the right to request access to, correction of, or erasure of any data synced with our global systems, or object to specific processing contexts. To exercise these privileges, reach out to our administrative address listed below.</p>
+
+        <h2>5. Children's Privacy (COPPA / GDPR Compliance)</h2>
+        <p>We do not knowingly collect or target personal data from children under the age of 13 (or 16 in specified regional jurisdictions). If a minor is identified via our initial software age-gate mechanism, we strictly disable behavioral tracking configurations and pass an automated "child-directed" configuration flag to our ad networks to enforce child safety protocols.</p>
         
-        <h2>5. Data Retention & Deletion</h2>
+        <h2>6. Data Retention & Deletion</h2>
         <ul>
-            <li><strong>Local Data:</strong> Can be cleared at any time via the "Wipe All Game Data" option in the Settings menu.</li>
-            <li><strong>Cloud Data:</strong> To delete data synced with Google Play Game Services, you must manage your data settings within your Google Account.</li>
+            <li><strong>Local Data:</strong> Can be permanently removed by you at any time via the "Wipe All Game Data" option inside the in-game Settings menu.</li>
+            <li><strong>Cloud Data:</strong> To purge synchronization data attached to Google Play Game Services, you must manage your deletion settings manually within your local Google Account Dashboard.</li>
         </ul>
         
-        <h2>6. External Links</h2>
-        <p>The Game contains links to our official policy website. Once you leave the Game, you are subject to the privacy practices of the external site.</p>
-        
         <h2>7. Contact Us</h2>
-        <p>For any questions regarding this policy, contact us at: <a href="mailto:Voidbraeker@gmail.com">Voidbraeker@gmail.com</a></p>
+        <p>For any questions regarding this privacy policy or to submit a data inquiry, contact us at: <a href="mailto:VoidBraeker@gmail.com">VoidBraeker@gmail.com</a></p>
     </section>
 
     <!-- TERMS OF SERVICE SECTION -->
@@ -170,41 +178,45 @@ hr {
         <p class="subtitle"><strong>Game:</strong> Void Grid: Unmade<br><strong>Last Updated:</strong> June 2026</p>
         
         <h2>1. Acceptance of Terms</h2>
-        <p>By accessing or installing <strong>Void Grid: Unmade</strong> (the "Game"), you agree to be bound by these Terms of Service. If you do not agree, you must immediately cease use of the Game.</p>
+        <p>By accessing, installing, or playing <strong>Void Grid: Unmade</strong> (the "Game"), you agree to be bound legally by these Terms of Service. If you do not explicitly accept these criteria, you must immediately uninstall and cease use of the Game.</p>
         
         <h2>2. License to Use</h2>
-        <p>VoidBraeker grants you a personal, non-exclusive, non-transferable, limited, revocable license to play the Game for non-commercial entertainment on a single device owned by you.</p>
+        <p>VoidBraeker grants you a personal, non-exclusive, non-transferable, limited, and revocable software license to install and play the Game for individual, non-commercial entertainment purposes on compatible mobile devices owned or controlled by you.</p>
         
         <h3>Prohibited Conduct:</h3>
         <ul>
-            <li><strong>Reverse Engineering:</strong> You may not attempt to extract the source code of the <strong>MazeCore</strong> engine or its associated algorithms.</li>
-            <li><strong>Leaderboard Manipulation:</strong> Using third-party software ("cheats" or "hacks") to alter your <strong>Performance Index (PI)</strong>, game economy, or <strong>Daily Breach</strong> scores is strictly prohibited and may result in a permanent ban from Global Rankings.</li>
-            <li><strong>Bypassing Systems:</strong> Attempting to bypass in-app purchase systems or distribute/copy Game assets without permission is forbidden.</li>
+            <li><strong>Reverse Engineering:</strong> You may not attempt to decompile, unpack, or extract the source code of the <strong>MazeCore</strong> engine, its associated rendering pipelines, or generation algorithms.</li>
+            <li><strong>Leaderboard Manipulation:</strong> Using third-party modification utilities ("cheats," "hacks," or external automation tools) to alter your <strong>Performance Index (PI)</strong>, game economy variables, or <strong>Daily Breach</strong> scoring matrix is strictly prohibited and will trigger a permanent ban from Global Rankings.</li>
+            <li><strong>Bypassing Systems:</strong> Attempting to exploit in-app purchase validation logic or distributing core Game audio/visual assets without authorized written permission is strictly forbidden.</li>
         </ul>
         
         <h2>3. Virtual Goods & Economy</h2>
         <ul>
-            <li><strong>Currency:</strong> <strong>Void Fragments</strong>, <strong>Tech Scraps</strong>, and <strong>Neural Energy</strong> are virtual licenses only. They have no real-world monetary value and cannot be redeemed for cash.</li>
-            <li><strong>In-App Purchases:</strong> The "Remove Adverts" upgrade is a final, one-time digital purchase that is non-refundable once processed by the Google Play Store.</li>
+            <li><strong>Currency:</strong> <strong>Void Fragments</strong>, <strong>Tech Scraps</strong>, and <strong>Neural Energy</strong> represent virtual licenses only. They hold zero real-world value, do not constitute property, and cannot be redeemed for legal currency or physical cash.</li>
+            <li><strong>In-App Purchases:</strong> The "Remove Ads" option is a digital transactional upgrade. Transactions are handled natively via the Google Play Store, whose storefront policies govern overall refund distribution thresholds.</li>
         </ul>
         
-        <h2>4. Stability & Save Data</h2>
+        <h2>4. Stability & Save Data Disclaimer</h2>
         <ul>
-            <li><strong>"As Is" Service:</strong> The Game is provided without warranties of any kind. We make no warranties that the Game will be error-free.</li>
-            <li><strong>Data Loss:</strong> We are not liable for the loss of <strong>Save Files</strong> due to hardware failure, manual uninstallation, or clearing of app cache. Users are highly encouraged to use the Cloud Sync feature to mitigate risk.</li>
+            <li><strong>"As Is" Service:</strong> The Game is provided on an "as is" and "as available" basis without express warranties of any type. We do not guarantee that game processes will operate without interruption or occasional errors.</li>
+            <li><strong>Data Loss:</strong> VoidBraeker is not liable for data loss regarding local <strong>Save Files</strong> resulting from hardware damage, application cache wipes, system rollbacks, or manual uninstallation. Users are strongly urged to enable the Cloud Sync feature to safeguard progress.</li>
         </ul>
         
         <h2>5. System Requirements & Connectivity</h2>
         <ul>
-            <li><strong>Online Requirements:</strong> The free version of the Game requires an active data connection to initialize ads and the economy. Ad availability depends on third-party networks and is not guaranteed to be constant.</li>
-            <li><strong>Offline Protection:</strong> This feature is provided "as is" and may be unavailable during server maintenance or due to third-party ad network failures.</li>
+            <li><strong>Online Requirements:</strong> The ad-supported build of the Game relies on active data connectivity to populate ads and initialize economy tokens. Ad inventory depends entirely on third-party digital networks and continuous availability is not guaranteed.</li>
+            <li><strong>Offline Protection:</strong> This auxiliary utility is provided on a best-effort framework and may experience intermittent down-times during remote infrastructure maintenance or external ad-network outages.</li>
         </ul>
         
-        <h2>6. Limitation of Liability</h2>
-        <p>VoidBraeker shall not be liable for any indirect or consequential damages arising from your use of the Game, including "System Strain" or device thermal issues resulting from high graphics settings.</p>
+        <h2>6. Limitation of Liability & Indemnification</h2>
+        <p>To the maximum extent permitted by applicable law, VoidBraeker shall not be held liable for any indirect, incidental, or consequential damages resulting from your use of the software, including but not limited to device thermal conditions, high graphic settings performance degradation, or "System Strain."</p>
+        <p>In no event shall our collective financial liability to you for all legal claims exceed the total sum actually paid by you for in-game purchases within the twelve (12) months preceding the dispute. You agree to indemnify and hold harmless VoidBraeker against any third-party legal challenges stemming from your violation of these conditions.</p>
         
-        <h2>7. Governing Law</h2>
-        <p>These terms are governed by the laws of your local jurisdiction.</p>
+        <h2>7. Governing Law & Legal Jurisdiction</h2>
+        <p>These terms, along with any relevant technical disputes, are governed by and construed in strict accordance with the laws of England and Wales. You agree that any legal action or arbitration arising directly out of these Terms shall be filed exclusively within the courts located in England.</p>
     </section>
 
 </div>
+
+</body>
+</html>

@@ -116,7 +116,7 @@
     <!-- PRIVACY POLICY SECTION -->
     <section id="privacy">
         <h1>Privacy Policy</h1>
-        <p class="subtitle"><strong>Game:</strong> Void Grid: Unmade<br><strong>Last Updated:</strong> June 2026</p>
+        <p class="subtitle"><strong>Game:</strong> Void Grid: Unmade<br><strong>Last Updated:</strong> July 2026</p>
         
         <p>VoidBraeker ("we," "us," or "our") provides <strong>Void Grid: Unmade</strong> (the "Game"). This Privacy Policy explains how we collect, use, and disclose information when you access our Game via the Google Play Store. For the purposes of global data protection laws (including GDPR and UK GDPR), VoidBraeker acts as the Data Controller for processing your information.</p>
         
@@ -174,7 +174,7 @@
     <!-- TERMS OF SERVICE SECTION -->
     <section id="terms">
         <h1>Terms of Service & EULA</h1>
-        <p class="subtitle"><strong>Game:</strong> Void Grid: Unmade<br><strong>Last Updated:</strong> June 2026</p>
+        <p class="subtitle"><strong>Game:</strong> Void Grid: Unmade<br><strong>Last Updated:</strong> July 2026</p>
         
         <h2>1. Acceptance of Terms</h2>
         <p>By accessing, installing, or playing <strong>Void Grid: Unmade</strong> (the "Game"), you agree to be bound legally by these Terms of Service. If you do not explicitly accept these criteria, you must immediately uninstall and cease use of the Game.</p>

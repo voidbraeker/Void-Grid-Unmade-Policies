@@ -184,7 +184,7 @@
         
         <h3>Prohibited Conduct:</h3>
         <ul>
-            <li><strong>Reverse Engineering:</strong> You may not attempt to decompile, unpack, or extract the source code of the <strong>MazeCore</strong> engine, its associated rendering pipelines, or generation algorithms.</li>
+            <li><strong>Reverse Engineering:</strong> You may not attempt to decompile, unpack, or extract the source code of the <strong>VoidGrid</strong> engine, its associated rendering pipelines, or generation algorithms.</li>
             <li><strong>Leaderboard Manipulation:</strong> Using third-party modification utilities ("cheats," "hacks," or external automation tools) to alter your <strong>Performance Index (PI)</strong>, game economy variables, or <strong>Daily Breach</strong> scoring matrix is strictly prohibited and will trigger a permanent ban from Global Rankings.</li>
             <li><strong>Bypassing Systems:</strong> Attempting to exploit in-app purchase validation logic or distributing core Game audio/visual assets without authorized written permission is strictly forbidden.</li>
         </ul>

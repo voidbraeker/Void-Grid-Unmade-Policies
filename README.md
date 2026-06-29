@@ -135,7 +135,7 @@
         <h3>C. Automated Data Collection (Third Parties)</h3>
         <p>To provide the Game for free, manage performance, and securely handle distribution, we use third-party networks whose software development kits (SDKs) collect automated parameters:</p>
         <ul>
-            <li><strong>Google AdMob & Mediation Partners:</strong> Collects Device IDs, IP addresses, and Advertising IDs (such as AAID) to serve, personalize, and analyze advertisements. Our monetization structure utilizes industry-standard mediation platform systems (such as ironSource / Unity LevelPlay) to securely handle safe ad delivery.</li>
+            <li><strong>Google AdMob:</strong> Collects Device IDs, IP addresses, and Advertising IDs (such as AAID) to serve, personalize, and analyze advertisements. Their data processing activities are governed by the <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Privacy & Terms for Advertising</a>. You can manage or opt out of personalized advertising at any time through your mobile device's privacy settings (e.g., "Limit Ad Tracking" on iOS or "Opt out of Ads Personalization" on Android).</li>
             <li><strong>Google Play Billing:</strong> Processes financial data for "Remove Ads" purchases. VoidBraeker does not see, access, or store your payment details or credit card information.</li>
         </ul>
         

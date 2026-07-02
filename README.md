@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -74,6 +75,12 @@
             border-bottom: 1px solid var(--border); 
             padding-bottom: 5px; 
         } 
+        h3 {
+            font-size: 1.1rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #111827;
+        }
         p { 
             margin-bottom: 15px; 
             color: var(--text-light); 
@@ -82,7 +89,7 @@
             font-style: italic; 
             margin-bottom: 30px; 
         } 
-        ul { 
+        ul, ol { 
             margin-bottom: 20px; 
             padding-left: 20px; 
             color: var(--text-light); 
@@ -161,11 +168,16 @@
         <h2>5. Children's Privacy (COPPA / GDPR Compliance)</h2>
         <p>We do not knowingly collect or target personal data from children under the age of 13 (or 16 in specified regional jurisdictions). If a minor is identified via our initial software age-gate mechanism, we strictly disable behavioral tracking configurations and pass an automated "child-directed" configuration flag to our ad networks to enforce child safety protocols.</p>
         
-        <h2>6. Data Retention & Deletion</h2>
-        <ul>
-            <li><strong>Local Data:</strong> Can be permanently removed by you at any time via the "Wipe All Game Data" option inside the in-game Settings menu.</li>
-            <li><strong>Cloud Data:</strong> To purge synchronization data attached to Google Play Game Services, you must manage your deletion settings manually within your local Google Account Dashboard.</li>
-        </ul>
+        <h2>6. Account & Data Deletion</h2>
+        <p><strong>Void Grid: Unmade</strong> utilizes Google Play Services and Google Play Games for authentication and achievements.</p>
+        <p>We do not collect, store, or maintain any personal user data or account credentials on external servers. All game progress and authentication are handled locally on your device or securely via Google's infrastructure.</p>
+        <p>Because we do not store your data, we have nothing to delete on our end. If you wish to revoke the app's access to your Google Account or clear your cloud-saved play history, you can do so directly through your Android device settings:</p>
+        <ol>
+            <li>Open your device's Google Settings app.</li>
+            <li>Navigate to Connected Apps.</li>
+            <li>Select <strong>Void Grid: Unmade</strong> and click Disconnect / Remove Access.</li>
+        </ol>
+        <p>Additionally, local data can be permanently removed by you at any time via the "Wipe All Game Data" option inside the in-game Settings menu.</p>
         
         <h2>7. Contact Us</h2>
         <p>For any questions regarding this privacy policy or to submit a data inquiry, contact us at: <a href="mailto:VoidBraeker@gmail.com">VoidBraeker@gmail.com</a></p>

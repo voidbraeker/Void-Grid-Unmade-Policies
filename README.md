@@ -142,8 +142,9 @@
         <h3>C. Automated Data Collection (Third Parties)</h3>
         <p>To provide the Game for free, manage performance, and securely handle distribution, we use third-party networks whose software development kits (SDKs) collect automated parameters:</p>
         <ul>
-            <li><strong>Google AdMob:</strong> Collects Device IDs, IP addresses, and Advertising IDs (such as AAID) to serve, personalize, and analyze advertisements. Their data processing activities are governed by the <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Privacy & Terms for Advertising</a>. You can manage or opt out of personalized advertising at any time through your mobile device's privacy settings (e.g., "Limit Ad Tracking" on iOS or "Opt out of Ads Personalization" on Android).</li>
+            <li><strong>Google AdMob:</strong> Collects Device IDs, IP addresses, and Advertising IDs (such as AAID) to serve, personalize, and analyze advertisements. Their data processing activities are governed by the <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Privacy & Terms for Advertising</a>. You can manage or opt out of personalized advertising at any time through your mobile device's privacy settings (e.g., "Limit Ad Tracking" on Android).</li>
             <li><strong>Google Play Billing:</strong> Processes financial data for "Remove Ads" purchases. VoidBraeker does not see, access, or store your payment details or credit card information.</li>
+            <li><strong>Google Firebase:</strong> We have implemented a server-side validation relay using Firebase Functions. All score calculations and cryptographic signing occur in a secure cloud environment using private secrets. The native Android layer acts as a hardened gatekeeper, verifying signatures via a Java-based HMAC bridge before final submission to Google Play Services. This eliminates client-side score tampering and protects against replay attacks. To complete this security validation, your temporary gameplay metrics and Google Play Game Services Player ID are securely passed to Firebase Cloud Functions. Firebase processes this data as a processor under the <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google Firebase Privacy and Security Terms</a>.</li>
         </ul>
         
         <h2>2. Legal Basis & How We Use Your Information</h2>
@@ -170,8 +171,8 @@
         
         <h2>6. Account & Data Deletion</h2>
         <p><strong>Void Grid: Unmade</strong> utilizes Google Play Services and Google Play Games for authentication and achievements.</p>
-        <p>We do not collect, store, or maintain any personal user data or account credentials on external servers. All game progress and authentication are handled locally on your device or securely via Google's infrastructure.</p>
-        <p>Because we do not store your data, we have nothing to delete on our end. If you wish to revoke the app's access to your Google Account or clear your cloud-saved play history, you can do so directly through your Android device settings:</p>
+        <p>We do not collect, store, or maintain persistent personal user profiles or account credentials on our own external servers. Score validation parameters are handled securely via Google and Firebase's cloud infrastructure.</p>
+        <p>Because we do not permanently store your data on private databases, we have no active files to delete on our end. If you wish to revoke the app's access to your Google Account or clear your cloud-saved play history, you can do so directly through your Android device settings:</p>
         <ol>
             <li>Open your device's Google Settings app.</li>
             <li>Navigate to Connected Apps.</li>

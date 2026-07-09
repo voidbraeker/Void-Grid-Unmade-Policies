@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Void Grid | Echo Detected</title>
+    <style>
+        body {
+            background-color: #060b14;
+            color: #22d3ee;
+            font-family: 'Orbitron', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            border: 1px solid rgba(34,211,238,0.2);
+            background: rgba(34,211,238,0.05);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgba(0,255,255,0.1);
+            max-width: 400px;
+        }
+        h1 { font-size: 1.5rem; letter-spacing: 4px; margin-bottom: 10px; }
+        p { color: rgba(255,255,255,0.6); font-size: 0.9rem; line-height: 1.6; }
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 30px;
+            border: 1px solid #22d3ee;
+            color: #22d3ee;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background: #22d3ee;
+            color: #000;
+            box-shadow: 0 0 20px #22d3ee;
+        }
+    </style>
+    <!-- Load Orbitron font -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div style="font-size: 40px; margin-bottom: 20px;">📡</div>
+        <h1>ECHO DETECTED</h1>
+        <p>A Rival Neural Signature has been identified. Dimensional synchronization is required to view this run.</p>
+
+        <!-- This button will attempt to open the app via the deep link -->
+        <a id="open-btn" href="#" class="btn">Establish Link</a>
+
+        <div style="margin-top: 20px; font-size: 0.7rem; opacity: 0.4;">
+            Rift Runner: Unmade | Neural Grid Protocol
+        </div>
+    </div>
+
+    <script>
+        // Extract the echo ID from the current URL
+        const params = new URLSearchParams(window.location.search);
+        const echoId = params.get('e');
+
+        if (echoId) {
+            // Construct the deep link that the app is listening for
+            // We use the root URL because that's where the main app is
+            const appUrl = `https://voidbraeker.github.io/?e=${echoId}`;
+
+            const openBtn = document.getElementById('open-btn');
+            openBtn.href = appUrl;
+
+            // Automatically attempt to redirect to the app link
+            // On Android, if the app is installed, this will prompt to open it
+            window.location.href = appUrl;
+        }
+    </script>
+</body>
+</html>
